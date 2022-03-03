@@ -1,0 +1,11 @@
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff;
+  font-size: 14px;
+  font-family: Roboto, arial, sans-serif;
+  color: #202124;
+  overflow-y: auto;
+}
