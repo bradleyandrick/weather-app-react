@@ -1,0 +1,64 @@
+.forecastWeather {
+  background-color: #fff;
+  height: 160px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.forecastWeatherDate {
+  width: calc(100% - 5px);
+  background-color: #fff;
+  text-align: left;
+  padding-left: 5px;
+  border-bottom: solid #dfe1e5 1px;
+}
+
+.forecastWeatherBody {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  width: calc(100% - 4px);
+  padding: 2px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgb(32 33 36 / 28%);
+}
+.forecastWeatherBodyLeft {
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: solid #dfe1e5 1px;
+}
+
+.forecastWeatherStateName {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.forecastWeatherBodyCenter {
+  display: flex;
+  width: 32.5%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.forecastWeatherBodyRight {
+  display: flex;
+  width: 32.5%;
+  flex-direction: column;
+  justify-content: center;
+}
+.forecastWeatherDetailsCenter {
+  font-size: 14px;
+  text-align: left;
+  padding-left: 38px;
+  padding-top: 6px;
+}
+.forecastWeatherDetailsRight {
+  font-size: 14px;
+  text-align: left;
+  padding-top: 6px;
+}

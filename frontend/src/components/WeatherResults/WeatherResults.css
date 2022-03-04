@@ -1,0 +1,15 @@
+.WeatherResults {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weatherTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+.loadingWeatherText {
+  font-size: 18px;
+}

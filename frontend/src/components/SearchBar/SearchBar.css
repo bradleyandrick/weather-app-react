@@ -1,15 +1,20 @@
+.searchBarContainer {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
 .searchBar {
   display: flex;
-  z-index: 3;
   height: 44px;
   background: #fff;
   border: 1px solid #dfe1e5;
   box-shadow: none;
   border-radius: 24px;
   margin: 0 auto;
-  width: 50%;
+  width: 100%;
   max-width: 584px;
   min-width: 400px;
+  margin-bottom: 40px;
 }
 
 .searchBar:hover {
@@ -33,7 +38,7 @@
   flex-direction: row;
 }
 .searchInput {
-  background-color: transparent;
+  background-color: #fff;
   border: none;
   margin: 0;
   padding: 0;
@@ -78,4 +83,11 @@
 
 .searchResults:hover {
   background-color: #eee;
+}
+
+@media only screen and (max-width: 650px) {
+  .searchBar {
+    width: 80%;
+    min-width: 300px;
+  }
 }

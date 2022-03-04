@@ -1,0 +1,8 @@
+.weatherContainer {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  z-index: 1;
+  top: 228px;
+  margin-top: 10%;
+}

@@ -1,18 +1,24 @@
 import "./App.css";
 import AppProvider from "./store";
-import TestComp from "./components/TestComp/TestComp";
+
 import headLogo from "./images/WeatherOpen_crop.png";
 import SearchBar from "./components/SearchBar/SearchBar";
+import WeatherContainer from "./components/WeatherContainer/WeatherContainer";
 
 function App() {
   return (
     <div className="App">
       <div className="headLogoImage">
-        <img src={headLogo} alt="weather logo" height="92px" />
+        <img
+          src={headLogo}
+          className="LogoImage"
+          alt="weather logo"
+          height="92px"
+        />
       </div>
       <AppProvider>
-        {/* <TestComp></TestComp> */}
         <SearchBar></SearchBar>
+        <WeatherContainer></WeatherContainer>
       </AppProvider>
     </div>
   );
