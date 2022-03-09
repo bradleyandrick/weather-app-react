@@ -8,7 +8,6 @@ const WeatherResults = () => {
   const store = useContext(AppContext);
   const [currentCity, setcurrentCity] = useState("");
   const [weatherData, setweatherData] = useState(null);
-  //store.getwoeid
 
   useEffect(() => {
     setcurrentCity("");
