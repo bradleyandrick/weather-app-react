@@ -1,6 +1,5 @@
 const express = require("express");
 const cors = require("cors");
-const morgan = require("morgan");
 const fetch = require("node-fetch");
 
 const PORT = process.env.PORT || 4000;
@@ -15,20 +14,6 @@ app.use(
   })
 );
 
-// Logging
-app.use(morgan("dev"));
-
-// Authorization
-// app.use('', (req, res, next) => {
-//   if (req.headers.authorization === 'fast-nguyen') {
-//     next();
-//   } else {
-//     res.status(403);
-//     res.json({
-//       message: 'Authorization is required.',
-//     });
-//   }
-// });
 
 app.get("/meta-weather/*", async (req, res, next) => {
   try {
