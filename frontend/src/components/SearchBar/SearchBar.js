@@ -12,7 +12,6 @@ const SearchBar = () => {
   const [searchValue, setsearchValue] = useState("");
 
   function onResultItemClicked(e) {
-    //console.log(e.target.attributes[1].value);
     store.setwoeid(e.target.attributes[1].value);
     setsearchValue(e.target.innerHTML);
     setshowSearchResults(false);
@@ -65,7 +64,6 @@ const SearchBar = () => {
             setshowSearchResults(false);
             setsearchValue(data[0].title);
             store.setwoeid(data[0].woeid);
-            //console.log(data[0].woeid);
           }
         });
     });
